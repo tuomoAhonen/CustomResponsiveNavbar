@@ -1,0 +1,192 @@
+body {
+    background-color: #f5f5dc;
+    height: 1080px;
+}
+
+p {
+    color: #000000;
+}
+
+.tapahtumat ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px !important;
+}
+
+.tapahtumat {
+    border-bottom: #000000 1px solid;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.saa ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.saa {
+    margin-bottom: 16px;
+}
+
+.liikennekamera, .liikennekamera p {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.liikennekamerakuvat {
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+.junat {
+
+}
+
+.junat p {
+    margin: 0;
+    margin-bottom: 2px;
+    padding: 0;
+}
+
+.junat-alarivi {
+    margin-bottom: 20px !important;
+}
+
+.header{
+    width: 100%;
+    height: 40px;
+}
+
+.main-content {
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: -1px;
+    margin-left: 1px;
+    background-color: #ffffff;;
+    width: inherit !important;
+}
+
+@media screen and (min-width: 601px) {
+    .navigation-bar {
+        background-color: #ffffff;
+        border: #f5f5dc 1px solid;
+        width: 100%;
+        position: relative !important;
+        display: block !important;
+        height: 38px;
+        padding-top: 10px !important;
+    }
+
+    .navigation-bar-button {
+        width: auto;
+        float: left;
+        display: block !important;
+        position: relative !important;
+        margin-top: 0 !important;
+    }
+
+    .navigation-bar-button a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: normal;
+        color: #000000;
+        padding: 10px 10px 9px;
+    }
+
+    .navigation-bar-button a:hover {
+        background-color: #f5f5dc;
+    }
+
+    .navigation-bar-button a.active {
+        border-bottom: #000000 solid 2px;
+    }
+
+    .mobile-navigation-bar-button {
+        display: none;
+    }
+
+    .page-indicator {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        background-color: #ffffff;
+        border: #f5f5dc 1px solid;
+        width: 100%;
+        position: relative;
+        display: block;
+        height: 38px;
+        padding-top: 10px !important;
+    }
+
+    .navigation-bar-button {
+        display: none;
+    }
+
+    #navbuttons {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: -10px;
+        float: right;
+        width: 220px;
+        height: auto;
+    }
+
+    .navigation-bar-button {
+        display: block;
+        position: relative;
+        width: 200px; 
+        background-color: #f5f5dc;
+        right: 0px;
+        border: #000000 solid;
+        border-width: 1px 1px 1px 1px;
+    }
+
+    .navigation-bar-button a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: normal;
+        color: #000000;
+        padding: 2px;
+    }
+
+    .navigation-bar-button a.active {
+        background-color: #ffffff;
+    }
+
+    .mobile-navigation-bar-button {
+        background-image: url("bars-solid.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        display: block;
+        float: right;
+        width: 28px;
+        height: 26px;
+        padding: 0px 4px 0px;
+    }
+
+    .page-indicator {
+        position: relative;
+        display: block;
+        float: left;
+        color: #000000;
+        font-size: 26px;
+        height: 26px;
+        font-weight: normal;
+        padding: 0 !important;
+        margin: 0 !important;
+        top: -26px;
+        left: 10px;
+    }
+}

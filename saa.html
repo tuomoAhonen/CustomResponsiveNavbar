@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyylit.css">
+    <title>Sää</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation-bar" id="navigation-bar-id">
+            <div class="page-indicator"><p class="page-indicator-text">Sää</p></div>
+            <div class="mobile-navigation-bar-button" onclick="navbaropen()"></div>
+            <div id="navbuttons">
+                <div class="navigation-bar-button" id="navbar-button1"><a href="saa.html" class="active">Sää</a></div>  
+                <div class="navigation-bar-button" id="navbar-button2"><a href="tapahtumat.html">Tapahtumat</a></div>
+                <div class="navigation-bar-button" id="navbar-button3"><a href="liikennekamera.html">Liikennekamera</a></div>
+                <div class="navigation-bar-button" id="navbar-button4"><a href="junat.html">Junat</a></div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content" onclick="navbarmobileclose()">
+        <div class="saa" id="saahelsinki"></div>
+        <div class="saa" id="saatampere"></div>
+    </main>
+    <script src="navbar.js"></script>
+    <script src="saahelsinki.js"></script>
+    <script src="saatampere.js"></script>
+</body>
+</html>

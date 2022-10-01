@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyylit.css">
+    <title>Junat</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation-bar" id="navigation-bar-id">
+            <div class="page-indicator"><p class="page-indicator-text">Sää</p></div>
+            <div class="mobile-navigation-bar-button" onclick="navbaropen()"></div>
+            <div id="navbuttons">
+                <div class="navigation-bar-button" id="navbar-button1"><a href="saa.html">Sää</a></div>  
+                <div class="navigation-bar-button" id="navbar-button2"><a href="tapahtumat.html">Tapahtumat</a></div>
+                <div class="navigation-bar-button" id="navbar-button3"><a href="liikennekamera.html">Liikennekamera</a></div>
+                <div class="navigation-bar-button" id="navbar-button4"><a href="junat.html" class="active">Junat</a></div>
+            </div>
+        </nav>
+    </header>
+    <main class="main-content" onclick="navbarmobileclose()">
+        <div class="junat" id="junat"></div>
+    </main>
+    <script src="navbar.js"></script>
+    <script src="junat.js"></script>
+</body>
+</html>
