@@ -1,2 +1,2 @@
 # responsivenavbar
-HTML5/JavaScript/CSS/ &amp; JSON-homework from school
+HTML5/JavaScript/CSS/ Custom navbar &amp; JSON-homework from school
