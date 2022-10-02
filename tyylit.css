@@ -42,9 +42,9 @@ p {
     max-width: 100%;
 }
 
-.junat {
+/*.junat {
 
-}
+}*/
 
 .junat p {
     margin: 0;
@@ -82,11 +82,19 @@ p {
         padding-top: 10px !important;
     }
 
+    #navbuttons {
+        position: relative !important;
+        display: block !important;
+        float: none;
+        width: 880px;
+        height: auto;
+    }
+
     .navigation-bar-button {
+        position: relative !important;
+        display: block !important;
         width: auto;
         float: left;
-        display: block !important;
-        position: relative !important;
         margin-top: 0 !important;
     }
 
@@ -127,23 +135,20 @@ p {
         padding-top: 10px !important;
     }
 
-    .navigation-bar-button {
-        display: none;
-    }
-
     #navbuttons {
-        display: none;
         position: absolute;
+        display: none;
         top: 40px;
-        right: -10px;
+        left: 10px;
         float: right;
         width: 220px;
         height: auto;
     }
 
     .navigation-bar-button {
-        display: block;
         position: relative;
+        display: block;
+        height: 30px;
         width: 200px; 
         background-color: #f5f5dc;
         right: 0px;
@@ -168,25 +173,25 @@ p {
     .mobile-navigation-bar-button {
         background-image: url("bars-solid.svg");
         background-repeat: no-repeat;
-        position: relative;
+        position: absolute;
         display: block;
-        float: right;
+        top: 10px;
+        left: 10px;
         width: 28px;
         height: 26px;
         padding: 0px 4px 0px;
     }
 
     .page-indicator {
-        position: relative;
+        position: absolute;
         display: block;
-        float: left;
+        right: 10px;
+        top: -16px;
         color: #000000;
         font-size: 26px;
         height: 26px;
         font-weight: normal;
         padding: 0 !important;
         margin: 0 !important;
-        top: -26px;
-        left: 10px;
     }
 }
