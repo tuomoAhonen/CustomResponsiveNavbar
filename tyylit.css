@@ -138,18 +138,17 @@ p {
     #navbuttons {
         position: absolute;
         display: none;
-        top: 40px;
-        left: 10px;
-        float: right;
-        width: 220px;
+        top: 46px;
+        left: -1px;
+        width: 100%;
         height: auto;
     }
 
     .navigation-bar-button {
         position: relative;
-        display: block;
-        height: 30px;
-        width: 200px; 
+        display: none;
+        height: auto;
+        width: 100%; 
         background-color: #f5f5dc;
         right: 0px;
         border: #000000 solid;
@@ -175,8 +174,8 @@ p {
         background-repeat: no-repeat;
         position: absolute;
         display: block;
+        right: 0px;
         top: 10px;
-        left: 10px;
         width: 28px;
         height: 26px;
         padding: 0px 4px 0px;
@@ -185,8 +184,8 @@ p {
     .page-indicator {
         position: absolute;
         display: block;
-        right: 10px;
         top: -16px;
+        left: 10px;
         color: #000000;
         font-size: 26px;
         height: 26px;
