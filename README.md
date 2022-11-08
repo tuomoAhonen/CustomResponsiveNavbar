@@ -1,2 +1,2 @@
-# Responsive Navigation bar + Simple styling
-HTML5/JavaScript/CSS/ Custom navbar &amp; JSON-homework from school
+# Custom responsive navigation bar + simple styling + JSON homework from school
+HTML5/JavaScript/CSS/
